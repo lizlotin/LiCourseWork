@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1200.0" style="-fx-background-color: F5F5DC;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SixthIdDetails">
+   <children>
+      <Label layoutX="184.0" layoutY="30.0" text="SEVEN WONDERS OF UKRAINE">
+         <font>
+            <Font name="Bodoni MT Bold" size="58.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="mainImg1" fitHeight="309.0" fitWidth="524.0" layoutX="342.0" layoutY="162.0" visible="false">
+         <image>
+            <Image url="@../photo/Zakarpa.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="377.0" layoutY="90.0" text="КРИМИНАЛЬНАЯ ОДЕССА">
+         <font>
+            <Font name="Courier New" size="43.0" />
+         </font>
+      </Label>
+      <TextArea layoutX="17.0" layoutY="393.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="343.0" prefWidth="1166.0" style="-fx-background-color: f5f5dc;" text="Дата выезда: 29.05.21&#10;08:00 – Сбор группы на Пушкинском кольце.&#10;10:30 – Прибытие в Одессу.&#10;Тематическая экскурсия по городу «Криминальная Одесса».&#10;В Одессе всегда жили люди талантливые. Но их таланты не всегда были благородными.&#10;О знаменитых одесских аферистах Вы сможете узнать на этой экскурсии: Сонька — Золотая Ручка, Мишка Япончик, Анатолий Бец, Беня Крик,&#10;Осип Шор (прототип Остапа Бендера), Карабас и многие другие вписали пикантные странички в историю Одессы…&#10;Основные действия экскурсии развернутся на Молдаванке, в преступном «чреве» Одессы: дом Мишки Япончика, воровская академия, по возможности &#10;зайдем в двор, где снимался фильм  «Ликвидация». Мы проедем по Малой Арнаутской, где, по утверждению Остапа Бендера, делалась вся контрабанда&#10; в городе Одессе (!!! Внимание: ходят упорные слухи, что с тех лихих времен почти ничего не изменилось!). И, конечно же, нас ждет фотосессия у памятника&#10;Гоцману!&#10;13-30 Посещение таинственного грота.&#10;Как и большинство зданий в Одессе, дворец построен из камня ракушника, который добывали из-под земли прямо на месте строящегося дома. &#10;Таким образом возникли знаменитые одесские катакомбы. И под дворцом Нарышкиных существует несколько пустот-подвалов и галерей, в одной из &#10;которых под центральной частью здания был устроен подземный грот, в котором мы сегодня побываем.&#10;14:30 – Свободное время.&#10;19:00 –  Выезд домой.&#10;21:00 – Прибытие в родной город.&#10;&#10;Стоимость — 350 грн/чел.&#10;&#10;В стоимость входит:&#10;проезд,&#10;путевая экскурсия,&#10;сопровождение,&#10;мед.страховка&#10;Дополнительно оплачиваются:&#10;Экскурсия Криминальная Одесса – 50 грн; детям до 12 бесплатно&#10;Экскурсия гротом художественного музея  — 100 грн. взр; 50 грн. дет">
+         <font>
+            <Font name="Candara" size="16.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="NONE" />
+         </cursor>
+         <effect>
+            <Blend />
+         </effect>
+      </TextArea>
+      <Button fx:id="requestBtn" layoutX="84.0" layoutY="746.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="170.0" style="-fx-background-radius: 30px; -fx-background-color: f5f5dc;" text="Leave a request!">
+         <font>
+            <Font name="Bodoni MT Bold" size="21.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label layoutX="262.0" layoutY="753.0" prefHeight="26.0" prefWidth="360.0" text="or call the phone number +380669527681">
+         <font>
+            <Font name="Bodoni MT Bold" size="21.0" />
+         </font>
+      </Label>
+      <Button fx:id="backBtn" layoutX="1083.0" layoutY="746.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="75.0" style="-fx-background-radius: 30px; -fx-background-color: f5f5dc;" text="Back">
+         <font>
+            <Font name="Bodoni MT Bold" size="21.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <ImageView fitHeight="232.0" fitWidth="360.0" layoutX="442.0" layoutY="141.0">
+         <image>
+            <Image url="@../photo/odessa.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.effect.Blend?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1200.0" style="-fx-background-color: F5F5DC;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.FifthIdDetails">
+   <children>
+      <Label layoutX="184.0" layoutY="30.0" text="SEVEN WONDERS OF UKRAINE">
+         <font>
+            <Font name="Bodoni MT Bold" size="58.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="mainImg1" fitHeight="309.0" fitWidth="524.0" layoutX="342.0" layoutY="162.0" visible="false">
+         <image>
+            <Image url="@../photo/Zakarpa.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="467.0" layoutY="96.0" text="АСКАНИЯ НОВА">
+         <font>
+            <Font name="Courier New" size="43.0" />
+         </font>
+      </Label>
+      <TextArea layoutX="17.0" layoutY="393.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="343.0" prefWidth="1166.0" style="-fx-background-color: f5f5dc;" text="7-00- Выезд из Николаева.&#10;Посадка — Пушкинское кольцо в сторону Соборной – 06:15;&#10;6 Слободская – 06:30;&#10;кинотеатр «Юность» — 06:40;&#10;Херсонское шоссе/ Космонавтов – 06:55.&#10;11.00 Биосферный заповедник Аскания-Нова — это уникальный уголок природы: здесь расположен единственный в Европе участок степи, которого&#10;никогда не касался плуг. Заповедник Аскания — Нова отнесён к «100 великим заповедникам и паркам» мира. Музей под открытым небом: здесь сохранились &#10;одинокие древние курганы, каменные скифские бабы, созданные древними ваятелями. Заповедник занимает площадь 11 тыс. га.; примыкает к лесопарку с&#10;искусственными прудами и каналами, где обитает множество зверей и птиц. В Асканийской степи произрастает более 400 видов трав и цветов, преобладают&#10;злаки.В конце апреля зацветают тюльпаны, затем ирисы, астрагалы, гиацинты, лютики. В мае – гвоздики, ромашки. Летом степь, закутанная в серебристую&#10;дымку ковыля, переливается волнами от малейшего дуновения ветерка. У нор сусликов разрастаются куртины серовато — сизой полыни. Асканийский парк&#10;площадью около 200 га. Существенно отличается от дикой степной зоны. Он разбит согласно строгому плану. В парке около 150 видов и форм деревьев&#10;и кустарников. Остролистный клён, крымская сосна, пирамидальный и колонно видный дубы, можжевельник, вяз, ель, ясень, белая акация, у воды — плакучие&#10;ивы. Центр композиции парка — живописный пруд.&#10;&#10;14:00 — Свободное время для самостоятельной прогулки, фотосессия в осеннем парке.&#10;Экскурсия «Ретро — фото сафари» в автомобиле (факультативно).&#10;Возможность пообедать в кафе «Уют» (за доп.плату)&#10;&#10;16:00 — Выезд из Аскании — Нова.&#10;&#10;Прибытие в родной город ориентировочно в 20:00.&#10;&#10;Стоимость тура:  460 грн.            &#10;&#10;В стоимость входит:&#10;Проезд, путевая экскурсия, медицинская страховка.&#10;&#10;В стоимость не входит:&#10;Входные билеты (с экскурсией)  взрослый — 90 грн., детский — 60 грн.&#10;Экскурсия «Ретро — фото сафари» в автомобиле&#10;(по предварительному заказу) цена: 250 грн.,&#10;обед, личные расходы туристов.">
+         <font>
+            <Font name="Candara" size="16.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="NONE" />
+         </cursor>
+         <effect>
+            <Blend />
+         </effect>
+      </TextArea>
+      <Button fx:id="requestBtn" layoutX="84.0" layoutY="746.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="170.0" style="-fx-background-radius: 30px; -fx-background-color: f5f5dc;" text="Leave a request!">
+         <font>
+            <Font name="Bodoni MT Bold" size="21.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label layoutX="262.0" layoutY="753.0" prefHeight="26.0" prefWidth="360.0" text="or call the phone number +380669527681">
+         <font>
+            <Font name="Bodoni MT Bold" size="21.0" />
+         </font>
+      </Label>
+      <Button fx:id="backBtn" layoutX="1083.0" layoutY="746.0" mnemonicParsing="false" prefHeight="40.0" prefWidth="75.0" style="-fx-background-radius: 30px; -fx-background-color: f5f5dc;" text="Back">
+         <font>
+            <Font name="Bodoni MT Bold" size="21.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <ImageView fitHeight="223.0" fitWidth="354.0" layoutX="445.0" layoutY="155.0">
+         <image>
+            <Image url="@../photo/nova.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
